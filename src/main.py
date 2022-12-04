@@ -14,13 +14,13 @@ except ModuleNotFoundError:
 import torch
 import random
 
-from .data import *
-from .model import *
-from .FL_core.server import Server
-from .FL_core.client_selection import *
-from .FL_core.federated_algorithm import *
-from .utils import utils
-from .utils.argparse import get_args
+from data import *
+from model import *
+from FL_core.server import Server
+from FL_core.client_selection import *
+from FL_core.federated_algorithm import *
+from utils import utils
+from utils.argparse import get_args
 
 
 
