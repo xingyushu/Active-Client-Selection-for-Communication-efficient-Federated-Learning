@@ -9,6 +9,7 @@ numpy
 scipy
 tqdm
 h5py
+wandb
 ```
 
 ## Client Selection methods
